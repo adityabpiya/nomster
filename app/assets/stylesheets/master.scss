@@ -76,7 +76,9 @@ blockquote p {
   max-height: 550px;
   width: 100%;
 }
-
+.carousel-item.active, .carousel-item-next, carousel-item-prev {
+  display: block;
+}
 .carousel-caption {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 60px;
